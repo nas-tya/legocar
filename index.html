@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="apple-touch-icon" href="./images/mobile-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
+    <link rel="icon" type="image/ico" href="./images/favicon.ico" />
+    <title>Changan Auto</title>
+  </head>
+
+  <body class="page">
+    <header class="header">
+      <div class="header__container_first-row">
+        <a href="#"
+          ><img
+            src="./images/logo.svg"
+            alt="Логотип компании"
+            class="header__logo"
+        /></a>
+
+        <nav class="header__nav">
+          <ul class="header__nav_list">
+            <li class="header__nav_list-item">
+              <a href="#">Автомобили в наличии</a>
+            </li>
+            <li class="header__nav_list-item">
+              <a href="#">Спецпредложения</a>
+            </li>
+            <li class="header__nav_list-item">
+              <a href="#">Продать авто</a>
+            </li>
+            <li class="header__nav_list-item"> <a href="#">Сервис</a> </li>
+            <li class="header__nav_list-item"> <a href="#">Контакты</a> </li>
+          </ul>
+        </nav>
+
+        <button class="header__button">Заказать звонок</button>
+        <button class="burger"></button>
+      </div>
+
+      <span class="header__horizontal-line"></span>
+
+      <div class="header__container_second-row">
+        <address class="header__address"
+          ><img
+            src="./images/map-pin.svg"
+            alt="Иконка булавки на карте"
+          />Олимпийский просп., 5, стр. 1, Москва</address
+        >
+        <a class="header__route" href="#" target="_blank"
+          ><img
+            src="./images/airplane.svg"
+            alt="Иконка бумажный самолётик"
+          />Проложить маршрут</a
+        >
+        <p class="header__working-hours"
+          ><img src="./images/clock.svg" alt="Иконка часы" />9:00 - 21:00
+          (ежедневно)</p
+        >
+      </div>
+    </header>
+
+    <main class="main">
+      <h1 class="main__header"
+        >Теперь услуги дилерского центра Вы можете получить онлайн!</h1
+      >
+      <section class="main__card-gallery">
+        <article class="card card_diagnostic">
+          <h3 class="card__header"
+            >Диагностика автомобиля<br />
+            перед покупкой</h3
+          >
+          <p class="card__text"
+            >Расскажем обо всех скрытых дефектах автомобиля с пробегом</p
+          >
+          <button class="card_button">Записаться </button>
+          <img
+            class="card__diagnostic-img"
+            src="./images/diagnostics-img.png"
+            alt="Две красивые машины"
+          />
+        </article>
+        <article class="card card_video">
+          <h3 class="card__header">Онлайн показ автомобиля по видеосвязи</h3>
+          <p class="card__text"
+            >Проведем онлайн-показ интересующего автомобиля в удобное для Вас
+            время</p
+          >
+          <button class="card_button">Оставить заявку</button>
+          <img
+            class="card__video-vector"
+            src="./images/video-card-play.svg"
+            alt="Векторная картинка со значком проигрывания"
+          />
+          <img
+            class="card__video-img"
+            src="./images/play-card-img.png"
+            alt="Красивая машина"
+          />
+        </article>
+        <article class="card card_rent">
+          <h3 class="card__header">Онлайн бронирование</h3>
+          <p class="card__text"
+            >Забронируйте понравившийся автомобиль без визита в дилерский
+            центр</p
+          >
+          <button class="card_button">Забронировать </button>
+          <img
+            class="card__rent-img"
+            src="./images/rent-card-img.png"
+            alt="Смартфон с открытым приложением"
+          />
+        </article>
+        <article class="card card_cost">
+          <h3 class="card__header">Онлайн оценка автомобиля с пробегом</h3>
+          <p class="card__text"
+            >Узнайте предварительную стоимость автомобиля за 1 мин, указав его
+            параметры</p
+          >
+          <button class="card_button">Оценить</button>
+          <img
+            class="card__cost-vector"
+            src="./images/cost-card-look.svg"
+            alt="Векторная картинка с лупой"
+          />
+          <img
+            class="card__cost-img"
+            src="./images/cost-card-img.png"
+            alt="Красивая машина"
+          />
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer"> </footer>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

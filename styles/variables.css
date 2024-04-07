@@ -1,0 +1,15 @@
+:root {
+  --font-weight-main: 400;
+  --font-weight-title: 500;
+  --font-weight-button: 600;
+  --background-color: #fbfbfb;
+  --accent-color: #0b457f;
+  --menu-text-color: #666666;
+  --horizontal-line-color: #cecece;
+  --heading-color: #3e3e3e;
+  --card-text-color: #fff;
+  --background-gradient: linear-gradient(87deg,
+      rgba(18, 18, 18, 0.6),
+      60%,
+      transparent);
+}
